@@ -5,7 +5,19 @@
 
 <div class="container">
 
-	<h1>Inicio</h1>
+	<div class="row">
+		<div class="col-md-8">
+			<h1>Inicio</h1>
+			<div class="alert alert-info">
+				Columna de 8 partes
+			</div>	
+		</div>
+		<div class="col-md-4">
+		<div class="alert alert-success">
+			Columna de 4 partes
+		</div>
+		</div>
+	</div>
 
 </div>
 
