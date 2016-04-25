@@ -1,5 +1,5 @@
 <?php
-	include ("01_db.php");
+	include ("inc/db.php");
 	
 	$sql	=	"DELETE "
 			.	"FROM personas "
