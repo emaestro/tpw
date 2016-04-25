@@ -35,8 +35,12 @@
 					</div>
 					<input type="submit"name="btnGuardar"value="Guardar">
 				</div>
- 				<input type="submit" class="btn btn-primary"name="btnGuardar" value="Guardar">
-			</form>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<input type="submit" class="btn btn-primary"name="btnGuardar" value="Guardar">
+					</div>
+				</div>
+ 			</form>
 		</div>
 		<div class="col-md-4">
 			<div class="alert alert-success">
