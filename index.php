@@ -31,7 +31,7 @@
 						<td><?php echo $fila['materno']?></td>
 						<td><?php echo $fila['nombres']?></td>
 						<td> <a href="modificar.php?id=<?php echo $fila['personas_id']?>"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></a> </td>
-						<td> <a href="eliminar.php?id=<?php echo $fila['personas_id']?>"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a> </td>
+						<td> <a href="personas_eliminar.php?id=<?php echo $fila['personas_id']?>"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a> </td>
 					</tr>
 <?php
 				}
