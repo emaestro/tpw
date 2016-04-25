@@ -7,12 +7,12 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Alberto</a>
+			<a class="navbar-brand" href="#">Personas App</a>
 		</div>
 		<div id="navbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
 				<li class="inicio"><a href="index.php">Inicio</a></li>
-				<li><a href="acercade.php">Acerca de</a></li>
+				<li><a href="personas_nuevo.php">Nuevo</a></li>
 				<li><a href="contacto.php">Contacto</a></li>
 				<li><a href="servicio.php">Servicio</a></li>
 				<li><a href="productos.php">Productos</a></li>

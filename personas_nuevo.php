@@ -35,13 +35,7 @@
 					</div>
 					<input type="submit"name="btnGuardar"value="Guardar">
 				</div>
-				Paterno<br>
-				<input type="text"name="txtPaterno"><br>
-				Materno<br>
-				<input type="text"name="txtMaterno"maxlength="30"><br>
-				Nombres<br>
-				<input type="text"name="txtNombres"><br>
-				<input type="submit"name="btnGuardar"value="Guardar">
+ 				<input type="submit" class="btn btn-primary"name="btnGuardar" value="Guardar">
 			</form>
 		</div>
 		<div class="col-md-4">
