@@ -1,18 +1,18 @@
 <?php 
 
-	include("01_db.php");
+	include("inc/db.php");
 
-	$sql	=	"INSERT INTO PERSONAS SET ".
-				"paterno='{$_POST['txtPaterno']}',".
-				"materno='{$_POST['txtMaterno']}',".
-				"nombres='{$_POST['txtNombres']}'";
+	$sql	=	"INSERT INTO personas SET ".
+				"paterno = '{$_POST['txtPaterno']}', ".
+				"materno = '{$_POST['txtMaterno']}', ".
+				"nombres = '{$_POST['txtNombres']}' ";
 
 	if( $conexion->query($sql) )
 	{
-		header("Location:01.php");
+		header("Location:index.php");
 	}
 	else
 	{
-		header("Location:01_nuevo.php");
+		header("Location:personas_nuevo.php");
 	}
  ?>
