@@ -21,7 +21,7 @@
 
 			<h1>Nueva Persona</h1>
 
-			<form method="post"action="personas_nuevo_guarda.php"  class="form-horizontal">
+			<form method="post"action="personas_modificar_guarda.php"  class="form-horizontal">
 				<input type = "hidden" name = "txtId" value="<?php echo$fila['personas_id']; ?>">
 				<div class="form-group">
 					<label for="txtPaterno" class="col-sm-2 control-label">Paterno</label>
