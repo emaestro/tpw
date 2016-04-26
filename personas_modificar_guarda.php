@@ -2,7 +2,7 @@
 
 	include("inc/db.php");
 
-	$sql	=	"UPDATE PERSONAS SET ".
+	$sql	=	"UPDATE PERSONAS SET "
 			.	"paterno = '{$_POST['txtPaterno']}', "
 			.	"materno = '{$_POST['txtMaterno']}', "
 			.	"nombres = '{$_POST['txtNombres']}' "

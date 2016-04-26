@@ -5,7 +5,7 @@
 			.	"FROM personas "
 			.	"WHERE personas_id = {$_GET['id']}";
 	
-	if($conexion->query($sql))
+	if( $conexion->query($sql) )
 	{
 		header("Location:index.php");
 	}
