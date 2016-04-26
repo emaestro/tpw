@@ -33,7 +33,6 @@
 					<div class="col-sm-10">
 						<input type="text" class="form-control" id="txtNombres" placeholder="Nombres" name="txtNombres">
 					</div>
-					<input type="submit"name="btnGuardar"value="Guardar">
 				</div>
 				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-10">
