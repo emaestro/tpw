@@ -1,17 +1,7 @@
-<?php 
-
-	echo getenv('OPENSHIFT_MYSQL_DB_HOST');
-	echo "<br>";
-	echo getenv('OPENSHIFT_MYSQL_DB_USERNAME');
-	echo "<br>";
-	echo getenv('OPENSHIFT_MYSQL_DB_PASSWORD');
-	echo "<br>";
-	echo getenv('OPENSHIFT_MYSQL_DB_PORT');
-	echo "<br>";
-	echo getenv('OPENSHIFT_APP_NAME');
+<?php
 
 
-	$conexion = new mysqli($host, $user, $password, $database);
+	$conexion = new mysqli(getenv('OPENSHIFT_MYSQL_DB_HOST'), getenv('OPENSHIFT_MYSQL_DB_USERNAME'), getenv('OPENSHIFT_MYSQL_DB_PASSWORD'), getenv('OPENSHIFT_APP_NAME'));
 	
 	if( $conexion->connect_errno)
 	{
